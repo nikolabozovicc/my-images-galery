@@ -1,9 +1,12 @@
 {
     "editor.tabSize": 2,
+    "editor.indentSize": "tabSize",
     "eslint.validate": [
         "html",
         "javascript",
         "javascriptreact"
     ],
-    "editor.indentSize": "tabSize"
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    }
 }
