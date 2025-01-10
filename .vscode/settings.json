@@ -8,5 +8,15 @@
     ],
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": "explicit"
-    }
+    },
+
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+    },
+    "pylint.enabled": true,
+    "pylint.args": [
+        "--disable=missing-module-docstring",
+        "--disable=missing-function-docstring"
+    ]
 }
