@@ -9,6 +9,10 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": "explicit"
     },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
 
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",

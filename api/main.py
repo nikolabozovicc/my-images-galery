@@ -30,6 +30,8 @@ def new_image():
         url=UNSPLASH_URL, headers=headers, params=params, timeout=10
     )
     data = response.json()
+    if "errors" in data:
+        return data, 404
     return data
 
 
